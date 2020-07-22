@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="199dp"
+        android:layout_height="82dp"
+        android:text="@string/team_a"
+        android:textColor="#E91E63"
+        android:textSize="46sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <Button
+        android:layout_width="146dp"
+        android:layout_height="63dp"
+        android:background="#2196F3"
+        android:text="@string/_1"
+        android:textSize="30sp"
+        android:id="@+id/add1"
+        android:onClick="Add1"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <Button
+        android:layout_width="149dp"
+        android:layout_height="63dp"
+        android:background="#2196f3"
+        android:text="@string/_2"
+        android:textSize="30sp"
+        android:id="@+id/add2"
+        android:onClick="Add2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <Button
+        android:layout_width="148dp"
+        android:layout_height="65dp"
+        android:background="#2196f3"
+        android:text="@string/_3"
+        android:textSize="30sp"
+        android:id="@+id/add3"
+        android:onClick="Add3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="69dp"
+        android:text="@string/team_b"
+        android:textColor="#E91963"
+        android:textSize="46sp"
+        android:textStyle="bold"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <Button
+        android:layout_width="148dp"
+        android:layout_height="59dp"
+        android:background="#2196f3"
+        android:text="@string/_1"
+        android:textSize="30sp"
+        android:id="@+id/plus1"
+        android:onClick="Plus1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <Button
+        android:layout_width="148dp"
+        android:layout_height="61dp"
+        android:background="#2196f3"
+        android:text="@string/_2"
+        android:textSize="30sp"
+        android:id="@+id/plus2"
+        android:onClick="Plus2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <Button
+        android:layout_width="143dp"
+        android:layout_height="59dp"
+        android:background="#2196f3"
+        android:text="@string/_3"
+        android:textSize="30sp"
+        android:id="@+id/plus3"
+        android:onClick="Plus3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <Button
+        android:layout_width="277dp"
+        android:layout_height="79dp"
+        android:text="@string/reset"
+        android:textSize="50sp"
+        android:id="@+id/reset"
+        android:onClick="display"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="574dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_0"
+        android:textColor="#070707"
+        android:textSize="70sp"
+        android:id="@+id/score1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_0"
+        android:textColor="#070707"
+        android:textSize="70sp"
+        android:id="@+id/score2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="402dp"
+        android:layout_height="64dp"
+        android:hint="Enter your name"
+        android:inputType="textCapWords" />
+
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="405dp"
+        android:layout_height="48dp"
+        android:inputType="phone"
+        android:hint="Mobile"
+         />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="393dp"
+        android:layout_height="47dp"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="396dp"
+        android:layout_height="53dp"
+        android:hint="Password"
+        android:inputType="textPassword|numberPassword"
+         />
+
+
+
+
+    <RadioButton
+              android:id="@+id/male"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Male"
+         />
+    <RadioButton
+              android:id="@+id/female"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Female"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Technical Skills"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java"
+        android:id="@+id/java"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="python"
+        android:id="@+id/python"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java Script"
+        android:id="@+id/js"
+        />
+
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/district"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mandal"
+        />
+
+    <Button
+           android:id="@+id/submit"
+
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:onClick="display"
+           android:text="submit" />
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="400dp"
+        android:layout_height="260dp"
+        android:text="@string/data" />
+
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">InputControls</string>
+    <string name="data">Data</string>
+    <string-array name="districts">
+        <item>Anantapur</item>
+        <item>Kurnool</item>
+        <item>Chittoor</item>
+        <item>Nellore</item>
+        <item>Prakasam</item>
+        <item>Guntur</item>
+        <item>Kadapa</item>
+    </string-array>
+    <string-array name="Anantapur_mandal">
+        <item>ATP1</item>
+        <item>ATP2</item>
+        <item>ATP3</item>
+    </string-array>
+    <string-array name="Kurnool_mandal">
+        <item>Kur1</item>
+        <item>Kur2</item>
+        <item>Kur3</item>
+    </string-array>
+</resources>

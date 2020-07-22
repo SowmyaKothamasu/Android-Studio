@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/home"/>
+    <item android:title="Notifications"
+        android:id="@+id/notifications"/>
+    <item android:title="Languages"
+        android:id="@+id/languages"/>
+    <item android:title="Settimgs"
+        android:id="@+id/settings">
+        <menu>
+            <item android:id="@+id/password"
+                 android:title="Password"/>
+            <item android:id="@+id/security"
+                android:title="Security"/>
+
+        </menu>
+    </item>
+    <item android:title="Desgin"
+        android:id="@+id/design"
+        android:icon="@drawable/design"/>
+
+</menu>

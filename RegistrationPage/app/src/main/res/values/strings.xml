@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RegistrationPage</string>
+    <string name="welcome_to_home">Welcome To Home</string>
+    <string name="login_page">Login Page</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+</resources>
